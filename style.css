@@ -1,0 +1,70 @@
+body{
+	background-image: url('images/foret.jpg');
+    background-size: cover;
+	margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent{
+ text-align : center;
+}
+
+.right{
+	text-align:right;
+}
+
+.title{
+    color:#33FF99;
+}
+
+.light-blue{
+	color:#99FF99;
+}
+
+.light-yellow{
+    color:#99FFCC;
+}
+
+bold{
+	font-weight:bold;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.text-zone {
+    width: 65%; /* 50% of the viewport width */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Background color with transparency */
+    border: 1px solid #fff; /* Border color */
+    color: white; /* Default text color */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    overflow: hidden; /* Prevent text overflow */
+}
+.title-zone {
+    text-align: center;
+    width: 100%; /* 50% of the viewport width */
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.5); /* Background color with transparency */
+    border: 1px solid #fff; /* Border color */
+    color: white; /* Default text color */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    overflow: hidden; /* Prevent text overflow */
+}
+
+.centrer{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+            	}
